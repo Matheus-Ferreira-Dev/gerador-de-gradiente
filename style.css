@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,14 +44,14 @@ input [type="color"]::webkit-color-swatch  {
    border: none;
 }
 
-div.divDirection > i {
-    font-size: 30px;
+.divDirection > i {
+    font-size: 36px;
     color: #aaa;
     cursor: pointer;
 }
 
 .active {
-     color: black;
+     color: black!important;
 }
 
 button {
@@ -67,4 +67,6 @@ textarea {
     resize: none;
     padding: 5px;
     border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
